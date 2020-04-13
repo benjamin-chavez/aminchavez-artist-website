@@ -1,330 +1,417 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Benjamin Chavez | Full Stack Developer</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
-    crossorigin="anonymous">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
-    crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.css">
-  <title>Bootstrap Theme</title>
-</head>
-
-<body data-spy="scroll" data-target="#main-nav" id="home">
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="main-nav">
-    <div class="container">
-      <a href="index.html" class="navbar-brand">LoopLAB</a>
-      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a href="#home" class="nav-link">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="#explore-head-section" class="nav-link">Explore</a>
-          </li>
-          <li class="nav-item">
-            <a href="#create-head-section" class="nav-link">Create</a>
-          </li>
-          <li class="nav-item">
-            <a href="#share-head-section" class="nav-link">Share</a>
-          </li>
-        </ul>
+  <body id="home" data-spy="scroll" data-target="#main-nav">
+    <!-- Navbar -->
+    <nav
+      id="main-nav"
+      class="navbar navbar-expand-sm bg-light navbar-light fixed-top"
+    >
+      <div class="container">
+        <a href="#home" class="navbar-brand font-alt">Benjamin Chavez</a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#portfolio" class="nav-link">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#my-story" class="nav-link">My Story</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
-  <!-- HOME SECTION -->
-  <header id="home-section">
-    <div class="dark-overlay">
-      <div class="home-inner container">
-        <div class="row">
-          <div class="col-lg-8 d-none d-lg-block">
-            <h1 class="display-4">Build
-              <strong>social profiles</strong> and gain revenue
-              <strong>profits</strong>
+    <!-- HOME SECTION -->
+    <section id="home-section">
+      <div class="container">
+        <div class="banner-text align-items-end pb-5">
+          <div>
+            <h1 class="display-3 text-white text-center font-alt-no-space">
+              Benjamin Chavez
             </h1>
-            <div class="d-flex">
-              <div class="p-4 align-self-start">
-                <i class="fas fa-check fa-2x"></i>
-              </div>
-              <div class="p-4 align-self-end">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, tempore iusto in minima facere dolorem!
-              </div>
-            </div>
+            <p class="text-white text-center">Full Stack Developer</p>
+            <ul
+              class="text-white text-center list-unstyled justify-content-around list-inline"
+            >
+              <li class="btn mx-3 list-inline-item">
+                <a href="#my-story">My Story</a>
+              </li>
+              <li class="btn mx-3 list-inline-item">
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
-            <div class="d-flex">
-              <div class="p-4 align-self-start">
-                <i class="fas fa-check fa-2x"></i>
-              </div>
-              <div class="p-4 align-self-end">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, tempore iusto in minima facere dolorem!
-              </div>
-            </div>
-
-            <div class="d-flex">
-              <div class="p-4 align-self-start">
-                <i class="fas fa-check fa-2x"></i>
-              </div>
-              <div class="p-4 align-self-end">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, tempore iusto in minima facere dolorem!
-              </div>
+    <!-- PORTFOLIO SECTION -->
+    <section id="portfolio" class="text-center py-5">
+      <div class="container-fluid px-5">
+        <div class="row">
+          <div class="col">
+            <div class="mb-4">
+              <h2 class="section-title font-alt pt-3">Portfolio</h2>
+              <p class="section-text text-center">
+                A selection of my work as a full stack Developer in The U.S. and
+                Germany.
+              </p>
             </div>
           </div>
+        </div>
 
-          <div class="col-lg-4">
-            <div class="card bg-primary text-center card-form">
-              <div class="card-body">
-                <h3>Sign Up Today</h3>
-                <p>Please fill out this form to register</p>
-                <form>
-                  <div class="form-group">
-                    <input type="text" class="form-control form-control-lg" placeholder="Username">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div class="card">
+              <a href="https://www.chip-in.site/" target="_blank">
+                <img
+                  src="https://res.cloudinary.com/dyy8g76av/image/upload/v1586752146/Chip-In_w68gar.png"
+                  class="card-img img-fluid"
+                  alt="Chip-In Website Preview"
+                />
+
+                <div class="card-img-overlay card-body">
+                  <div>
+                    <h2 class="card-title">Chip-In</h2>
+                    <div class="container">
+                      <p class="card-text">
+                        A platform to connect individuals and charities with the
+                        goal of simplifying the search for community service
+                        opportunites.
+                      </p>
+                    </div>
                   </div>
-                  <div class="form-group">
-                    <input type="email" class="form-control form-control-lg" placeholder="Email">
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div class="card">
+              <a href="https://aminchavez.com/" target="_blank">
+                <img
+                  src="https://res.cloudinary.com/dyy8g76av/image/upload/v1586752149/aminchavez.com_cgn7kx.png"
+                  class="card-img img-fluid"
+                  alt="intiMasky Website Preview"
+                />
+                <div class="card-img-overlay card-body">
+                  <div>
+                    <h2 class="card-title">Amin Chavez - DJ & Producer</h2>
+                    <div class="container">
+                      <p class="card-text">
+                        Artist website for my eletronic music alias: Amin
+                        Chavez.
+                      </p>
+                    </div>
                   </div>
-                  <div class="form-group">
-                    <input type="password" class="form-control form-control-lg" placeholder="Password">
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+              <a href="https://intimasky.herokuapp.com/" target="_blank">
+                <img
+                  src="https://res.cloudinary.com/dyy8g76av/image/upload/v1586752152/intiMASKy_etoyto.png"
+                  class="image-dude card-img img-fluid"
+                  alt="intiMasky Website Preview"
+                />
+                <div class="card-img-overlay card-body">
+                  <div>
+                    <h2 class="card-title">intiMASKy</h2>
+                    <div class="container">
+                      <p class="card-text">
+                        An online rental marketplace for individuals to find and
+                        post fetish Masks.
+                      </p>
+                    </div>
                   </div>
-                  <div class="form-group">
-                    <input type="password" class="form-control form-control-lg" placeholder="Confirm Password">
-                  </div>
-                  <input type="submit" value="Submit" class="btn btn-outline-light btn-block">
-                </form>
-              </div>
+                </div>
+              </a>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </header>
+    </section>
 
-  <!-- EXPLORE HEAD -->
-  <section id="explore-head-section">
-    <div class="container">
-      <div class="row">
-        <div class="col text-center py-5">
-          <h1 class="display-4">Explore</h1>
-          <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente doloribus ut iure itaque quibusdam rem accusantium
-            deserunt reprehenderit sunt minus.</p>
-          <a href="#" class="btn btn-outline-secondary">Find Out More</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- EXPLORE SECTION -->
-  <section id="explore-section" class="bg-light text-muted py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <img src="img/explore-section1.jpg" alt="" class="img-fluid mb-3 rounded-circle">
-        </div>
-        <div class="col-md-6">
-          <h3>Explore & Connect</h3>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore reiciendis, voluptate at alias laborum odit aliquid
-            tempore perspiciatis repudiandae hic?</p>
-          <div class="d-flex">
-            <div class="p-4 align-self-start">
-              <i class="fas fa-check fa-2x"></i>
-            </div>
-            <div class="p-4 align-self-end">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi distinctio iusto, perspiciatis mollitia natus harum?
-            </div>
-          </div>
-
-          <div class="d-flex">
-            <div class="p-4 align-self-start">
-              <i class="fas fa-check fa-2x"></i>
-            </div>
-            <div class="p-4 align-self-end">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi distinctio iusto, perspiciatis mollitia natus harum?
+    <!-- PARALLAX IMAGE 1 -->
+    <!-- <section id="parallax-image">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="mb-4">
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
+    </section> -->
 
-  <!-- CREATE HEAD -->
-  <section id="create-head-section" class="bg-primary">
-    <div class="container">
-      <div class="row">
-        <div class="col text-center py-5">
-          <h1 class="display-4">Create</h1>
-          <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente doloribus ut iure itaque quibusdam rem accusantium
-            deserunt reprehenderit sunt minus.</p>
-          <a href="#" class="btn btn-outline-light">Find Out More</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CREATE SECTION -->
-  <section id="create-section" class="py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 order-2">
-          <img src="img/create-section1.jpg" alt="" class="img-fluid mb-3 rounded-circle">
-        </div>
-        <div class="col-md-6 order-1">
-          <h3>Create Your Passion</h3>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore reiciendis, voluptate at alias laborum odit aliquid
-            tempore perspiciatis repudiandae hic?</p>
-          <div class="d-flex">
-            <div class="p-4 align-self-start">
-              <i class="fas fa-check fa-2x"></i>
-            </div>
-            <div class="p-4 align-self-end">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi distinctio iusto, perspiciatis mollitia natus harum?
-            </div>
-          </div>
-
-          <div class="d-flex">
-            <div class="p-4 align-self-start">
-              <i class="fas fa-check fa-2x"></i>
-            </div>
-            <div class="p-4 align-self-end">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi distinctio iusto, perspiciatis mollitia natus harum?
+    <!-- MY STORY SECTION -->
+    <section id="my-story" class="text-center py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="mb-4">
+              <h2 class="section-title font-alt pt-3">My Story</h2>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
+        <div class="row">
+          <div class="col-md-4 col-sm-12">
+            <!-- <div class="mb-5"> -->
+            <p class="section-text text-left text-white">
+              Growing up my mom always told me “You know... everything is a
+              business right? You should learn business”. It was with these
+              words whispering in the back of my mind when I decided to change
+              the course of my college studies from jazz guitar to business. I
+              subsequently graduated from DePaul University in Chicago with a
+              double major in Finance and Economics and a double minor in
+              International Business and Spanish.
+            </p>
+            <p class="section-text text-left text-white">
+              I spent five years working in the financial services industry,
+              where I loved the complex work and the demanding work environments
+              typically full of type A individuals. However, it wasn’t long
+              after starting in the industry that I noticed two things: first,
+              the ability to translate human logic into computer code was
+              quickly destroying and creating jobs; and second, many businesses
+              use extremely antiquated software.
+            </p>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <p class="section-text text-left text-white">
+              It was with this knowledge that I realized that learning to code
+              would inevitably be my next step. After working as a senior
+              financial analyst at Ayco, Goldman Sachs for three years, and
+              soaking in as much knowledge as I could, I decided to take a leap.
+              In January of 2020, I moved to Berlin, Germany to complete a 9
+              week full stack coding bootcamp at
+              <a href="https://www.lewagon.com/">Le Wagon</a>. It was during
+              this bootcamp that I discovered that not only do I have a passion
+              for the complexity of backend development, but that I really enjoy
+              the creativity that comes with frontend development as well.
+            </p>
 
-  <!-- SHARE HEAD -->
-  <section id="share-head-section" class="bg-primary">
-    <div class="container">
-      <div class="row">
-        <div class="col text-center py-5">
-          <h1 class="display-4">Share</h1>
-          <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente doloribus ut iure itaque quibusdam rem accusantium
-            deserunt reprehenderit sunt minus.</p>
-          <a href="#" class="btn btn-outline-light">Find Out More</a>
+            <p class="section-text text-left text-white">
+              Currently, I am looking for work as a developer, and once again,
+              my mother’s words are in my head: “Everything is a business”.
+              Keeping this in mind, I am looking for a company with interesting
+              problems where my background in finance can be used
+              synergistically to benefit the business.
+            </p>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <p class="section-text text-left text-white">
+              When I am not coding, you might find me producing/performing
+              electronic music under the artist alias
+              <a href="aminchavez.com">Amin Chavez</a>, or reading. Here are a
+              few books that changed me for the better:
+            </p>
+            <ul class="list-unstyled text-left section-text text-white">
+              <li>
+                •
+                <a
+                  class="book-list"
+                  href="https://www.amazon.com/Principles-Life-Work-Ray-Dalio/dp/1501124021/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1586730183&sr=8-1-spons"
+                  target="_blank"
+                  >Principles </a
+                >by Ray Dalio
+              </li>
+              <li>
+                •
+                <a
+                  href="https://www.amazon.com/Small-Beautiful-Economics-Mattered-Perennial/dp/0061997765/ref=sr_1_1?crid=2O1UHT92XOMKR&dchild=1&keywords=small+is+beautiful&qid=1586730233&sprefix=small+is+bea%2Caps%2C202&sr=8-1"
+                  target="_blank"
+                  >Small Is Beautiful </a
+                >by E. F. Schumacher
+              </li>
+              <li>
+                •
+                <a
+                  href="https://www.amazon.com/Change-Your-Mind-Consciousness-Transcendence/dp/1594204225/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1586742671&sr=8-1"
+                  target="_blank"
+                  >How to Change Your Mind
+                </a>
+                by Michael Pollan
+              </li>
+              <li>
+                •
+                <a
+                  href="https://www.amazon.com/Liars-Poker-Rising-Through-Wreckage/dp/0393027503/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1586730362&sr=8-2"
+                  target="_blank"
+                  >Liar's Poker </a
+                >by Michael Lewis
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- SHARE SECTION -->
-  <section id="share-section" class="bg-light text-muted py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <img src="img/share-section1.jpg" alt="" class="img-fluid mb-3 rounded-circle">
-        </div>
-        <div class="col-md-6">
-          <h3>Share What You Create</h3>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore reiciendis, voluptate at alias laborum odit aliquid
-            tempore perspiciatis repudiandae hic?</p>
-          <div class="d-flex">
-            <div class="p-4 align-self-start">
-              <i class="fas fa-check fa-2x"></i>
-            </div>
-            <div class="p-4 align-self-end">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi distinctio iusto, perspiciatis mollitia natus harum?
+    <!-- PARALLAX IMAGE 2 -->
+    <!-- <section class="parallax-image"></section> -->
+
+    <!-- CONTACT/FOOTER -->
+    <section id="contact" class="text-center py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="mb-4">
+              <h2 class="section-title font-alt pt-3">Contact</h2>
             </div>
           </div>
+        </div>
 
-          <div class="d-flex">
-            <div class="p-4 align-self-start">
-              <i class="fas fa-check fa-2x"></i>
-            </div>
-            <div class="p-4 align-self-end">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi distinctio iusto, perspiciatis mollitia natus harum?
-            </div>
-          </div>
+        <!-- <div class="row text-center"> -->
+        <!-- <div class="col">
+            <div class="">
+              <h2 class="section-title font-alt pt-3">Contact</h2> -->
+        <!-- <div class="col-sm-5">
+            <img
+              id="footer-img"
+              src="/img/Ben-thumbnail.jpeg"
+              alt="Benjamin Chavez"
+            />
+          </div> -->
+        <div class="text-center">
+          <ul class="list-inline">
+            <li class="list-inline-item contact-link">
+              <a
+                href="https://www.linkedin.com/in/benjaminchavez/"
+                target="_blank"
+              >
+                <i class="fab fa-linkedin contact-icon px-2"></i
+              ></a>
+            </li>
+            <li class="list-inline-item contact-link">
+              <a href="https://github.com/bmchavez" target="_blank">
+                <i class="fab fa-github contact-icon px-2"></i
+              ></a>
+            </li>
+            <li class="list-inline-item contact-link">
+              <!-- <p class="font-alt">email:</p>
+                  <p>ben.m.chavez@gmail.com</p> -->
+              <a href="mailto: ben.m.chavez@gmail.com">
+                <i class="fa fa-envelope contact-icon px-2"></i
+              ></a>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- FOOTER -->
-  <footer id="main-footer" class="bg-dark">
-    <div class="container">
-      <div class="row">
-        <div class="col text-center py-4">
-          <h3>LoopLAB</h3>
-          <p>Copyright &copy;
-            <span id="year"></span>
-          </p>
-          <button class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Contact Us</button>
-        </div>
-      </div>
-    </div>
-  </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
 
-  <!-- CONTACT MODAL -->
-  <div class="modal fade text-dark" id="contactModal">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title">Contact Us</h5>
-          <button class="close" data-dismiss="modal">
-            <span>&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <form>
-            <div class="form-group">
-              <label for="name">Name</label>
-              <input type="text" class="form-control">
-            </div>
-            <div class="form-group">
-              <label for="email">Email</label>
-              <input type="email" class="form-control">
-            </div>
-            <div class="form-group">
-              <label for="message">Message</label>
-              <textarea class="form-control"></textarea>
-            </div>
-          </form>
-        </div>
-        <div class="modal-footer">
-          <button class="btn btn-primary btn-block">Submit</button>
-        </div>
-      </div>
-    </div>
-  </div>
+    <script>
+      // Collapse navbar on click
+      $('.navbar-nav>li>a').on('click', function () {
+        $('.navbar-collapse').collapse('hide');
+      });
 
+      // Get the current year for the copyright
+      $('#year').text(new Date().getFullYear());
 
-  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
-    crossorigin="anonymous"></script>
+      // Init Scrollspy
+      $('body').scrollspy({ target: '#main-nav' });
 
-  <script>
-    // Get the current year for the copyright
-    $('#year').text(new Date().getFullYear());
+      // Add smooth scrolling to Navbar
+      $('#main-nav a').on('click', function (e) {
+        // Check for a hash value
+        if (this.hash !== '') {
+          // Prevent default behavior
+          e.preventDefault();
 
-    // Init Scrollspy
-    $('body').scrollspy({ target: '#main-nav' });
+          // Store hash
+          const hash = this.hash;
 
-    // Smooth Scrolling
-    $("#main-nav a").on('click', function (event) {
-      if (this.hash !== "") {
-        event.preventDefault();
+          // Animate smooth scroll
+          $('html, body').animate(
+            {
+              scrollTop: $(hash).offset().top,
+            },
+            900,
+            function () {
+              // Add hash to URL after scroll
+              window.location.hash = hash;
+            }
+          );
+        }
+      });
 
-        const hash = this.hash;
+      // Add smooth scrolling to banner buttons
+      $('#home-section a').on('click', function (e) {
+        // Check for a hash value
+        if (this.hash !== '') {
+          // Prevent default behavior
+          e.preventDefault();
 
-        $('html, body').animate({
-          scrollTop: $(hash).offset().top
-        }, 800, function () {
+          // Store hash
+          const hash = this.hash;
 
-          window.location.hash = hash;
-        });
-      }
-    });
-  </script>
-</body>
-
+          // Animate smooth scroll
+          $('html, body').animate(
+            {
+              scrollTop: $(hash).offset().top,
+            },
+            900,
+            function () {
+              // Add hash to URL after scroll
+              window.location.hash = hash;
+            }
+          );
+        }
+      });
+    </script>
+  </body>
 </html>
