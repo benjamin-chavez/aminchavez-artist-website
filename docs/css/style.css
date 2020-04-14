@@ -13,7 +13,8 @@ body {
   background-repeat: no-repeat;
   background-position: 50% 45%;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
+  color: transparent;
 }
 
 .font-alt-no-space {
@@ -97,7 +98,7 @@ body {
     url(https://res.cloudinary.com/dyy8g76av/image/upload/v1586752138/parallax-img_ffefgm.jpg);
 
   color: white;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 
 .card {
@@ -146,7 +147,7 @@ body {
 }
 
 #contact {
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 
 #footer-img {
@@ -161,4 +162,15 @@ body {
 
 #my-story a:hover {
   color: green;
+}
+
+@media only screen and (min-width: 992px) {
+  #home-section {
+    background-attachment: fixed;
+    color: white;
+  }
+
+  #my-story {
+    background-attachment: fixed;
+  }
 }
