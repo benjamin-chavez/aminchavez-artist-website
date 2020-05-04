@@ -13,8 +13,9 @@ body {
   background-repeat: no-repeat;
   background-position: 50% 45%;
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
   color: transparent;
+  color: white;
 }
 
 .font-alt-no-space {
@@ -29,148 +30,24 @@ body {
   letter-spacing: 0.2em;
 }
 
-.card-title {
-  font-family: Dosis, arial, sans-serif;
-  /* text-transform: uppercase; */
-  letter-spacing: 0.1em;
-  font-size: 29px;
-  /* font-weight: 400; */
-}
-
-.section-title {
-  font-size: 20px;
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 0.4rem;
-}
-
-.section-text {
-  font-size: 15px;
-  font-weight: 300;
-  color: #777;
-  line-height: 1.7;
-  text-align: justify;
-}
-
 .banner-text {
   justify-content: center;
   display: flex;
   height: 100vh;
 }
 
-.btn {
-  min-width: 120px;
-  background-color: rgba(0, 0, 0, 0.212);
-  border: #fff solid 0.5px;
-  color: #fff;
-  text-decoration: none;
-  outline: none !important;
-}
-
-.btn:hover {
-  min-width: 120px;
-  background-color: rgba(167, 167, 167, 0.212);
-  border: #fff solid 0.5px;
-  color: #fff;
-  text-decoration: none;
-  outline: none !important;
-}
-
-.btn a {
-  text-decoration: none;
+.fab:hover {
+  opacity: 0.7;
   color: white;
 }
 
-#parallax-image {
-  /* #my-story { */
-  min-height: 150px;
-  width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(https://res.cloudinary.com/dyy8g76av/image/upload/v1586752138/parallax-img_ffefgm.jpg);
-  /* background-repeat: no-repeat; */
-  background-attachment: fixed;
-  /* opacity: 0.5; */
+a {
   color: white;
 }
 
-#my-story {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(https://res.cloudinary.com/dyy8g76av/image/upload/v1586752138/parallax-img_ffefgm.jpg);
-
-  color: white;
-  /* background-attachment: fixed; */
-}
-
-.card {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.card-img-overlay {
-  color: transparent;
-}
-
-.card:hover .card-img-overlay {
-  color: #fff;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  transition-duration: 0.6s;
-}
-
-.card:hover .card-text {
-  opacity: 0.6;
-}
-
-.card-body {
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  height: 100%;
-}
-
-#contact {
-  color: white;
-  background: #1b2024;
-  /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(https://res.cloudinary.com/dyy8g76av/image/upload/v1586752138/parallax-img_ffefgm.jpg); */
-}
-
-.contact-link {
-  font-size: 30px;
-}
-
-.contact-icon {
-  color: rgb(124, 124, 124);
-}
-
-.contact-icon:hover {
-  color: #fff;
-}
-
-#contact {
-  /* background-attachment: fixed; */
-}
-
-#footer-img {
-  height: 100px;
-  border-radius: 50px;
-}
-
-#my-story a {
-  color: white;
-  text-decoration: underline;
-}
-
-#my-story a:hover {
-  color: green;
-}
-
-@media only screen and (min-width: 992px) {
-  #home-section {
-    background-attachment: fixed;
-    color: white;
-  }
-
-  #my-story {
-    background-attachment: fixed;
-  }
+.contact:hover {
+  border-bottom: white;
+  color: white !important;
+  transition-duration: 0.4s;
+  opacity: 0.7;
 }
