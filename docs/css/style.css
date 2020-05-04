@@ -54,6 +54,7 @@ a {
 
 @media only screen and (min-width: 992px) {
   .display-4 {
+    color: red;
     font-size: 88px !important;
     font-weight: 300 !important;
   }
